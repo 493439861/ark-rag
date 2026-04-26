@@ -1,9 +1,9 @@
 ---
-name: volcengine-knowledge-base
+name: knowledge-base
 description: 火山引擎知识库检索skill，通过自然语言查询知识库内容。支持自定义collection名称、API域名、apikey等参数。
 ---
 
-# volcengine-knowledge-base
+# knowledge-base
 
 本 skill 用于调用火山引擎知识库 API 进行自然语言检索。
 

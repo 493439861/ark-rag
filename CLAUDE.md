@@ -4,11 +4,11 @@
 
 ## Skills
 
-### volcengine-knowledge-base
+### knowledge-base
 
 火山引擎知识库检索 skill，调用 `/api/knowledge/collection/search_knowledge` 接口。
 
-**位置**: `.claude/skills/volcengine-knowledge-base/`
+**位置**: `.claude/skills/knowledge-base/`
 
 **核心文件**:
 - `skill.md` - Skill 定义
@@ -19,7 +19,7 @@
 
 **使用方法**:
 ```python
-from volcengine_knowledge_base.search_knowledge import search_knowledge
+from knowledge_base.search_knowledge import search_knowledge
 
 result = search_knowledge(
     query="你的查询内容",
